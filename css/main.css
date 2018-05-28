@@ -1,36 +1,59 @@
+body{
 
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    
-    .row.content {height: 450px}
-    
-    .sidenav {
-      padding-top: 20px;
-    
-      height: 100%;
-    }
-    
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-    
- 
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height:auto;} 
-    }
-    body {
-    	background: linear-gradient(to top right, #ff9900 0%, #ffffcc 30%, #ffffcc 60%,  #ff9900 100%) no-repeat;
+  margin: 0;
+  padding: 0;
 
-    }
-    .fundo	{
-    	background: radial-gradient(#ffffff, #99ff99);
-    	border-radius: 20px;
-    }
+  box-sizing: border-box;
+
+}
+
+
+
+footer{
+    background-color: white;
+}
+
+
+/* blocos*/
+.test {
+  position: relative;
+  width: 50%;
+}
+
+/* imagem */
+.image {
+  width: 100%;
+  height: auto;
+}
+
+/* o que acontecerar no hover */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform:scale(0);
+  transition: .3s ease;
+}
+
+/*hpver */
+.test:hover .overlay {
+  transform: scale(1)
+}
+
+/* texto escondido no overlay */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+

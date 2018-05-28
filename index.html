@@ -1,73 +1,217 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html>
 <head>
-  <title>Projeto Basico</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
+	<title>
+		    Exercicio de css
+	</title>
 
-  </style>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+
 </head>
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">
-       <img src="img/light.png" class="rounded" width="30" height="30" alt="">
-      </a>
-      <a class="navbar-brand" href="#">House Economy</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Sobre Nós</a></li>
-        <li><a href="#">Contatos</a></li>
-      </ul>
 
+<!-- Menu -->
+<nav class="nav justify-content-center navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">
+    <img src="img/light.png" width="30" height="30" class="d-inline-block align-top" alt="">Economy House</a>
+
+
+</nav>
+
+
+
+<!-- div onde tudo sera inserido -->
+<div id = "divmestre">
+
+
+
+
+<!-- primeira linha -->
+<div class="container-fluid">
+<!-- slides -->
+<div id="app" class="carousel slide " data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#app" data-slide-to="0"></li>
+    <li data-target="#app" data-slide-to="1"></li>
+    <li data-target="#app" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/eco.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/eco.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/eco.jpg" alt="Third slide">
     </div>
   </div>
-</nav>
-  
-<div class="container-fluid text-center">    
-  <div class="row content">
-    <div class="col-sm-2 sidenav">
-      <p><a href="#">Calculo de Consumo</a></p>
-      <p><a href="#">Tipos de Lampadas</a></p>
-      <p><a href="#">Gastos Comuns</a></p>
-      <p><a href="#">Link</a></p>
-      <p><a href="#">Link</a></p>
-      <p><a href="#">Link</a></p>
-      <p><a href="#">Link</a></p>
-      <p><a href="#">Link</a></p>
 
+</div>
+<!-- blocos -->  
+<div class="col p-5">
+<div class="flex-sm-column">
+<div class="row">
+
+<div class="card col-sm-3 mr-auto test">
+  <img class="card-img-top" src="img/eco.jpg" alt="Card image cap">
+  <div class="card-body">
+  <h5 class="card-title text-align-center">Consumo</h5>
+  </div>
+  <div class="overlay">
+      
+    <div class="text">
+      <p class="card-text">Com o App voce poderar conferir o seu consumo diario assim tendo uma maior economia de  </p>
     </div>
-    <div class="col-sm-8 text-center fundo"> 
-      <h1>Economy House</h1>
-      <p>O App que ajuda a viver mais e se preocupar menos xD</p>
-      <img src="img/eco.jpg">
-      <hr>
-      <h3>....</h3>
-      <p>...</p>
-    </div>
-    <div class="col-sm-2 sidenav">
-      <div class="well">
-        <p>ADS</p>
-      </div>
-      <div class="well">
-        <p>ADS</p>
-      </div>
-    </div>
+
   </div>
 </div>
 
-<footer class="container-fluid text-center">
-  <p>Conheça Nossos Projetos de Barraquinha de Acarajé</p>
+<div class="card col-sm-3 mr-auto test">
+  <img class="card-img-top" src="img/eco.jpg" alt="Card image cap">
+  <div class="card-body">
+  <h5 class="card-title text-align-center">Consumo</h5>
+  </div>
+  <div class="overlay">
+      
+    <div class="text">
+      <p class="card-text">Com o App voce poderar conferir o seu consumo diario assim tendo uma maior economia de  </p>
+    </div>
+
+  </div>
+</div>
+
+<div class="card col-sm-3 mr-auto test">
+  <img class="card-img-top" src="img/eco.jpg" alt="Card image cap">
+  <div class="card-body">
+  <h5 class="card-title text-align-center">Consumo</h5>
+  </div>
+  <div class="overlay">
+      
+    <div class="text">
+      <p class="card-text">Com o App voce poderar conferir o seu consumo diario assim tendo uma maior economia de  </p>
+    </div>
+
+  </div>
+</div>
+
+<div class="card col-sm-3 mr-auto test">
+  <img class="card-img-top" src="img/eco.jpg" alt="Card image cap">
+  <div class="card-body">
+  <h5 class="card-title text-align-center">Consumo</h5>
+  </div>
+  <div class="overlay">
+      
+    <div class="text">
+      <p class="card-text">Com o App voce poderar conferir o seu consumo diario assim tendo uma maior economia de  </p>
+    </div>
+
+  </div>
+</div>
+</div>
+<div class="flex-sm-column">
+<div class="row">
+
+<div class="card col-sm-3 mr-auto test">
+  <img class="card-img-top" src="img/eco.jpg" alt="Card image cap">
+  <div class="card-body">
+  <h5 class="card-title text-align-center">Consumo</h5>
+  </div>
+  <div class="overlay">
+      
+    <div class="text">
+      <p class="card-text">Com o App voce poderar conferir o seu consumo diario assim tendo uma maior economia de  </p>
+    </div>
+
+  </div>
+</div>
+
+<div class="card col-sm-3 mr-auto test">
+  <img class="card-img-top" src="img/eco.jpg" alt="Card image cap">
+  <div class="card-body">
+  <h5 class="card-title text-align-center">Consumo</h5>
+  </div>
+  <div class="overlay">
+      
+    <div class="text">
+      <p class="card-text">Com o App voce poderar conferir o seu consumo diario assim tendo uma maior economia de  </p>
+    </div>
+
+  </div>
+</div>
+<div class="card col-sm-3 mr-auto test">
+  <img class="card-img-top" src="img/eco.jpg" alt="Card image cap">
+  <div class="card-body">
+  <h5 class="card-title text-align-center">Consumo</h5>
+  </div>
+  <div class="overlay">
+      
+    <div class="text">
+      <p class="card-text">Com o App voce poderar conferir o seu consumo diario assim tendo uma maior economia de  </p>
+    </div>
+
+  </div>
+</div>
+<div class="card col-sm-3 mr-auto test">
+  <img class="card-img-top" src="img/eco.jpg" alt="Card image cap">
+  <div class="card-body">
+  <h5 class="card-title text-align-center">Consumo</h5>
+  </div>
+  <div class="overlay">
+      
+    <div class="text">
+      <p class="card-text">Com o App voce poderar conferir o seu consumo diario assim tendo uma maior economia de  </p>
+    </div>
+
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<!--Footer-->
+<footer>
+  <div class="row">
+    <div class="col-sm-3">
+      <h1>Sobre nós</h1>
+      <p>sobre a equipe aqui</p>
+	  </div>
+    <div class="col-sm-3">
+      <h1>Redes Sociais</h1>
+      <p>todas as redes sociais aqui</p>
+    </div>
+    <div class="col-sm-3">
+      <h1>Baixe o App</h1>
+      <p>link para baixar o app(tambem virar em cima do site)</p>
+    </div>  
+    <div class="col-sm-3">
+      <h1>Avalie</h1>
+      <p>avaliações e comentarios aqui</p>
+    </div>              
+</div>
+
+
 </footer>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
 
 </body>
 </html>
