@@ -59,10 +59,19 @@ footer{
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-
+/* slide */
 #app {
   text-align: center;
+  width:100%;
+  height: auto;
 
 
 }
+/* botão */
+.form {
+  background-color: orange;
+  border-radius: 10px;
+  padding: 4px;
+  text-align: center;
 
+}
