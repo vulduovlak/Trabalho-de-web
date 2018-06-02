@@ -1,16 +1,19 @@
-body{
+* {
+  margin: 0;
+  padding:0;
+}
 
+body{
   margin: 0;
   padding: 0;
-
   box-sizing: border-box;
-
+    background: linear-gradient(to right, #99ffcc 0%, #ffff00 100%);
 }
 
 
 
 footer{
-    background-color: white;
+    background-color: #008B8B;
 }
 
 
@@ -55,5 +58,11 @@ footer{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+#app {
+  text-align: center;
+
+
 }
 
