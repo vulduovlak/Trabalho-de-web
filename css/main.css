@@ -7,13 +7,10 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+    background: linear-gradient(to right, #99ffcc 0%, #ffff00 100%);
 }
 
-body, html {
-  width: 100%;
-  height: 100%;
-  font-family: Arial, Tahoma, sans-serif;
-}
+
 
 footer{
     background-color: #008B8B;
@@ -23,7 +20,7 @@ footer{
 /* blocos*/
 .test {
   position: relative;
-  width: 50%;
+  width: 40%;
 }
 
 /* imagem */
@@ -34,21 +31,21 @@ footer{
 
 /* o que acontecerar no hover */
 .overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  position:absolute;
+  bottom: 20%;
+  left: 0;/*esquerda*/
   right: 0;
   background-color: #008CBA;
   overflow: hidden;
   width: 100%;
-  height: 100%;
+  height: 80%;
   -webkit-transform:scale(0);
   transition: .3s ease;
 }
 
 /*hpver */
 .test:hover .overlay {
-  transform: scale(1)
+  transform:scale(1);
 }
 
 /* texto escondido no overlay */
@@ -56,10 +53,16 @@ footer{
   color: white;
   font-size: 20px;
   position: absolute;
-  top: 50%;
+  top:  50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+#app {
+  text-align: center;
+
+
 }
 
