@@ -7,7 +7,9 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-    background: linear-gradient(to right, #99ffcc 0%, #ffff00 100%);
+  background: linear-gradient(to right, #99ffcc 0%, #66ccff 100%);
+
+
 }
 
 
@@ -16,18 +18,19 @@ footer{
     background-color: #008B8B;
 }
 
+h5 {
+  text-align: center;
+}
 
 /* blocos*/
 .test {
   position: relative;
   width: 50%;
+  background: linear-gradient(to bottom, #ccff33 0%, #ffcc00 100%);
+
 }
 
-/* imagem */
-.image {
-  width: 100%;
-  height: auto;
-}
+
 
 /* o que acontecerar no hover */
 .overlay {
@@ -43,7 +46,7 @@ footer{
   transition: .3s ease;
 }
 
-/*hpver */
+/*hover */
 .test:hover .overlay {
   transform: scale(1)
 }
@@ -62,16 +65,17 @@ footer{
 /* slide */
 #app {
   text-align: center;
-  width:100%;
-  height: auto;
 
 
 }
+
+
 /* botão */
 .form {
-  background-color: orange;
-  border-radius: 10px;
-  padding: 4px;
+  border-radius: 20px;
+  padding: 2px;
   text-align: center;
+  color: orange;
 
 }
+
