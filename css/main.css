@@ -48,7 +48,7 @@ h5 {
 
 /*hover */
 .test:hover .overlay {
-  transform: scale(1)
+  transform: scale(1);
 }
 
 /* texto escondido no overlay */
@@ -75,7 +75,10 @@ h5 {
   border-radius: 20px;
   padding: 2px;
   text-align: center;
-  color: orange;
+  color: white;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
 
 }
 
