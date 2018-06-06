@@ -7,45 +7,48 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-    background: linear-gradient(to right, #99ffcc 0%, #ffff00 100%);
+  background-color: #0B486B;
+
 }
 
 
 
 footer{
-    background-color: #008B8B;
+    background-color: #3B8686;
 }
 
+h5 {
+  text-align: center;
+}
 
 /* blocos*/
 .test {
-  position: relative;
-  width: 40%;
+ background-color: #3B8686;
+ color: white;
+
 }
 
-/* imagem */
-.image {
-  width: 100%;
-  height: auto;
-}
+
 
 /* o que acontecerar no hover */
 .overlay {
-  position:absolute;
-  bottom: 20%;
-  left: 0;/*esquerda*/
+  position: absolute;
+  bottom: 0;
+  left: 0;
   right: 0;
-  background-color: #008CBA;
+  background: radial-gradient(#79BD9A, #3B8686, #0B486B);
   overflow: hidden;
   width: 100%;
-  height: 80%;
+  height: 100%;
   -webkit-transform:scale(0);
   transition: .3s ease;
+
 }
 
-/*hpver */
+/*hover */
 .test:hover .overlay {
-  transform:scale(1);
+  transform: scale(1);
+
 }
 
 /* texto escondido no overlay */
@@ -53,16 +56,46 @@ footer{
   color: white;
   font-size: 20px;
   position: absolute;
-  top:  50%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-}
+  
 
+}
+/* slide */
 #app {
   text-align: center;
 
 
+
 }
 
+
+/* botão  */
+.form {
+  border-radius: 20px;
+  padding: 2px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  background-color: green;
+
+}
+
+ /*edita o tamanho da foto */
+.cachorro {
+
+  height:450px;
+  clear: both;
+}
+.dog {
+
+  border-radius: 200px;
+  height: 150px;
+  width: 150px;
+  align-self: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
