@@ -60,8 +60,9 @@ h5 {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
-  
+  text-align: justify;
+  font-family: Times, Times New Roman, serif;
+  font-size: 25px;
 
 }
 /* slide */
@@ -98,4 +99,9 @@ h5 {
   align-self: center;
   margin-top: 25px;
   margin-bottom: 10px;
+}
+.topo  {
+  text-align: center;
+  color: white;
+  font-family: Times, Times New Roman, serif;
 }
